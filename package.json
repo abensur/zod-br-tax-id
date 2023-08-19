@@ -1,5 +1,5 @@
 {
-  "name": "zod-tax-id",
+  "name": "zod-br-tax-id",
   "version": "0.0.1",
   "description": "",
   "main": "./dist/index.js",
@@ -10,12 +10,14 @@
     "test": "vitest run",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "ci": "pnpm run lint && pnpm run test && pnpm run build"
+    "ci": "pnpm run lint && pnpm run test && pnpm run build",
+    "release": "pnpm run ci && changeset publish"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Rafaela Abensur",
+  "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@types/node": "^20.5.1",
     "tsup": "^7.2.0",
     "typescript": "^5.1.6",
