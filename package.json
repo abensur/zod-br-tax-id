@@ -11,7 +11,7 @@
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
-    "release": "pnpm run ci && pnpm changeset publish"
+    "release": "pnpm run ci && changeset publish"
   },
   "keywords": [],
   "author": "Rafaela Abensur",
