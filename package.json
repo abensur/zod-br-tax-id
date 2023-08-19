@@ -14,7 +14,7 @@
     "release": "pnpm run ci && changeset publish"
   },
   "keywords": [],
-  "author": "Rafaela Abensur",
+  "author": "Rafael Abensur",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
