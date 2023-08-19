@@ -1,0 +1,17 @@
+{
+  "name": "zod-tax-id",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6"
+  }
+}
