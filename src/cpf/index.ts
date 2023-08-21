@@ -60,7 +60,6 @@ const strictValidations = (digits: string) => {
   // check if it is not a sequence of the same numbers
   if (/^(\d)\1+$/.test(digits)) return false;
 
-  // check if length is 11
   if (digits.length !== 11) return false;
 
   return calculateCheckDigit(digits);
@@ -85,8 +84,6 @@ const calculateCheckDigit = (digits: string) => {
 
   const checkDigit1 = sumForCheckDigit(digits, validation1);
   const checkDigit2 = sumForCheckDigit(digits, validation2);
-
-  if (digits === "12345678909") console.log(checkDigit1, checkDigit2);
 
   return checkDigit1 === parseInt(digits[9]) && checkDigit2 === parseInt(digits[10]);
 };

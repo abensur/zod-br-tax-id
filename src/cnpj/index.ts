@@ -45,7 +45,6 @@ const strictValidations = (digits: string) => {
   // check if it is not a sequence of the same numbers
   if (/^(\d)\1+$/.test(digits)) return false;
 
-  // check if length is 14
   if (digits.length !== 14) return false;
 
   return calculateCheckDigit(digits);
