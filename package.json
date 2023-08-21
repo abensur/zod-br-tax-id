@@ -1,26 +1,48 @@
 {
   "name": "zod-br-tax-id",
   "version": "0.0.2",
-  "description": "",
+  "description": "Zod Custom Objects for Brazilian Tax Ids",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "dev": "vitest",
+    "dev": "vitest --dir src",
     "test": "vitest run",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
     "release": "pnpm run ci && changeset publish"
   },
-  "keywords": [],
+  "keywords": [
+    "zod",
+    "validation",
+    "cpf",
+    "cnpj",
+    "brasil",
+    "brazil",
+    "tax id",
+    "cpf validation",
+    "cnpj validation"
+  ],
   "author": "Rafael Abensur",
   "license": "MIT",
+  "homepage": "https://github.com/abensur/zod-br-tax-id#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abensur/zod-br-tax-id/"
+  },
+  "bugs": {
+    "url": "https://github.com/abensur/zod-br-tax-id/issues"
+  },
+  "peerDependencies": {
+    "zod": "^3"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "@types/node": "^20.5.1",
     "tsup": "^7.2.0",
     "typescript": "^5.1.6",
-    "vitest": "^0.34.2"
+    "vitest": "^0.34.2",
+    "zod": "^3.22.2"
   }
 }

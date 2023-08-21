@@ -1,3 +1,6 @@
-export const hello = () => {
-    console.log("Hello world!")
-}
+import cpf from "./cpf";
+import cnpj from "./cnpj";
+
+export * from "./types";
+
+export { cpf, cnpj };

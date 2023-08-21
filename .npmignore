@@ -1,6 +1,7 @@
 src
 .changeset
 .github
+.nvmrc
 pnpm-lock.yaml
 tsconfig.json
 vite.config.ts
