@@ -1,6 +1,6 @@
 {
   "name": "zod-br-tax-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zod Custom Objects for Brazilian Tax Ids",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
