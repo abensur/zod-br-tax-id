@@ -1,5 +1,11 @@
 # zod-br-tax-id
 
+## 1.0.1
+
+### Patch Changes
+
+- 4190f72: update .npmignore and README
+
 ## 1.0.0
 
 ### Major Changes
