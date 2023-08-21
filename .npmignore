@@ -2,6 +2,8 @@ src
 .changeset
 .github
 .nvmrc
+.prettierrc
+.vscode
 pnpm-lock.yaml
 tsconfig.json
 vite.config.ts
