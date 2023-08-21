@@ -1,5 +1,11 @@
 # zod-br-tax-id
 
+## 1.0.2
+
+### Patch Changes
+
+- cad57eb: remove log and uncessary comments
+
 ## 1.0.1
 
 ### Patch Changes
