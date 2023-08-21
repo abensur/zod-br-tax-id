@@ -1,5 +1,11 @@
 # zod-br-tax-id
 
+## 1.0.3
+
+### Patch Changes
+
+- 3b717e1: remove logs
+
 ## 1.0.2
 
 ### Patch Changes
