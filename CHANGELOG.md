@@ -1,5 +1,11 @@
 # zod-br-tax-id
 
+## 1.0.0
+
+### Major Changes
+
+- 7fb2e4d: CPF + CNPJ
+
 ## 0.0.3
 
 ### Patch Changes
