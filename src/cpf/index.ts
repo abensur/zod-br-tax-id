@@ -67,7 +67,7 @@ const strictValidations = (digits: string) => {
 
 const calculateCheckDigit = (digits: string) => {
   const validation1 = [10, 9, 8, 7, 6, 5, 4, 3, 2];
-  const validation2 = [...validation1].slice(0, 9).concat([11]);
+  const validation2 = [11, 10, 9, 8, 7, 6, 5, 4, 3, 2];
 
   const getRest = (sum: number) => {
     const remainder = sum % 11;
